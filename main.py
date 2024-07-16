@@ -48,8 +48,8 @@ if __name__ == '__main__':
     try:
         # initialize args
         parser = argparse.ArgumentParser(prog='FaceBlocker', description="Hides the mug.")
-        parser.add_argument("--mode", default='image')
-        parser.add_argument("--filePath", default='./data/testImg.jpg')
+        parser.add_argument("--mode", default='video')
+        parser.add_argument("--filePath", default='./data/testVideo.mp4')
 
         # get args
         args = parser.parse_args()
